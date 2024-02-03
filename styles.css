@@ -178,3 +178,15 @@ label {
     }
   }
 }
+
+@media screen and (max-width: 760px) {
+  nav,
+  footer {
+    justify-content: space-between;
+  }
+
+  body {
+    height: 100vh !important;
+    width: 94vw !important;
+  }
+}
