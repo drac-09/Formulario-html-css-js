@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Formulario 🖋️</title>
+  <link rel="icon" type="image/x-svg" href="/image/favicon.svg">
+  <link rel="stylesheet" href="styles.css">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link
+    href="https://fonts.googleapis.com/css2?family=Titillium+Web:ital,wght@0,200;0,300;0,400;0,600;0,700;0,900;1,200;1,300;1,400;1,600;1,700&display=swap"
+    rel="stylesheet">
+</head>
+
+<body>
+  <header>
+    <nav class="Barra">
+      <h1>Menu</h1>
+      <label for="toggle">
+        <input class="input" id="toggle" type="checkbox" />
+        <div class="toggle-wrapper">
+          <div class="Icons">
+            <img src="/image/sun.svg" style="width: auto" alt="">
+            <img src="/image/moon.svg" style="width: auto" alt="">
+          </div>
+          <span class="selector"></span>
+        </div>
+      </label>
+    </nav>
+  </header>
+  <div class="Centrar">
+    <form id="miFormulario" action="">
+      <h1>Formulario</h1>
+      <div>
+        <div class="Datos">
+          <label for="">Nombre</label>
+          <div>
+            <input type="text" name="" id="name">
+            <h1 id="mssname" class="alerta" style="visibility: hidden;">Por favor, ingrese el nombre</h1>
+          </div>
+        </div>
+        <div class="Datos">
+          <label for="">Contraseña</label>
+          <div>
+            <input type="password" name="" id="password">
+            <h1 id="msspassword" class="alerta" style="visibility: hidden;">Por favor, ingrese la contraseña</h1><br>
+          </div>
+        </div>
+      </div>
+      <button class="Boton-aceptar">Aceptar</button>
+    </form>
+  </div>
+
+  <footer class="Barra">
+    <h3>
+      Mi Formulario
+    </h3>
+    <h3>Otros elementos</h3>
+  </footer>
+  <script src="main.js"></script>
+</body>
+
+</html>
